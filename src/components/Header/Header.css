@@ -1,0 +1,20 @@
+.c-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 0 100px;
+  background-color: #fff;
+}
+
+.c-header__logo {
+  font-size: 20px;
+  font-weight: bolder;
+  line-height: .8;
+  text-transform: uppercase;
+}
+
+.c-header__nav {
+  display: flex;
+  align-items: center;
+}
