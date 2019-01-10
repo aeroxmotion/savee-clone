@@ -8,6 +8,8 @@
 }
 
 .c-header__logo {
+  text-decoration: none;
+  color: #000;
   font-size: 20px;
   font-weight: bolder;
   line-height: .8;
