@@ -5,6 +5,8 @@
   height: 100px;
   padding: 0 100px;
   background-color: #fff;
+  position: relative;
+  z-index: 1000;
 }
 
 .c-header__logo {

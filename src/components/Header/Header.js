@@ -1,15 +1,17 @@
 import React, { Component } from 'react'
-import './Header.css'
-import IconButton from '../IconButton/IconButton'
 import * as types from 'prop-types'
+
+import IconButton from '../IconButton/IconButton'
+import './Header.css'
 
 class Header extends Component {
   static propTypes = {
-    onToggleSearchBar: types.func.isRequired
+    onToggleSearchBar: types.func.isRequired,
+    onOpenGridControl: types.func.isRequired
   }
 
   render () {
-    const { onToggleSearchBar } = this.props
+    const { onToggleSearchBar, onOpenGridControl } = this.props
 
     return (
       <header className="c-header">
@@ -21,7 +23,7 @@ class Header extends Component {
         <nav className="c-header__nav">
           <IconButton onClick={onToggleSearchBar} icon="search" />
           <IconButton icon="cursor" />
-          <IconButton icon="slide" iconSize={53} iconOverflow={true} />
+          <IconButton onClick={onOpenGridControl} icon="slide" iconSize={53} iconOverflow={true} />
           <IconButton icon="add" />
         </nav>
       </header>

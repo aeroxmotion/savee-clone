@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import types from 'prop-types'
+
 import './SearchBar.css'
 
 class SearchBar extends Component {

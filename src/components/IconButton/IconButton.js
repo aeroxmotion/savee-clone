@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import types from 'prop-types'
-import './IconButton.css'
+
 import Icon from '../Icon/Icon'
+import './IconButton.css'
 
 class IconButton extends Component {
   static propTypes = {

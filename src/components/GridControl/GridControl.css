@@ -1,0 +1,20 @@
+.c-grid-control {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  padding: 2em;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2000;
+}
+
+.c-grid-control__container {
+  text-align: center;
+}
+
+.c-grid-control__container h3 {
+  margin-top: 0;
+}

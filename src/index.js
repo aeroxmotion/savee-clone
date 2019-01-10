@@ -2,10 +2,10 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
 
-import './index.css'
-import AppContainer from './containers/AppContainer'
 import * as serviceWorker from './serviceWorker'
+import AppContainer from './containers/AppContainer'
 import store from './redux/store'
+import './index.css'
 
 ReactDOM.render(
   <Provider store={store}>

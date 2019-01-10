@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import types from 'prop-types'
+
 import iconSet from './icon-set'
 import './Icon.css'
 

@@ -1,0 +1,7 @@
+.c-gallery-item {
+  font-size: 0;
+}
+
+.c-gallery-item__image {
+  max-width: 100%;
+}
